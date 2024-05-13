@@ -1,10 +1,14 @@
 import { defineConfig } from 'vite';
-import MyViteAliases from './plugins/ViteAliases';
-
+// import { createHtmlPlugin } from 'vite-plugin-html';
+import CreateHtmlPlugin from './plugins/CreateHtmlPlugin';
 export default defineConfig({
 	plugins: [
-		MyViteAliases({
-			keyName: '&',
+		CreateHtmlPlugin({
+			inject: {
+				data: {
+					title: '主页',
+				},
+			},
 		}),
 	],
 });
