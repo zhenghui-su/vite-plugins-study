@@ -1,0 +1,19 @@
+{
+	"name": "vite-test",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"dev": "vite"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"vite": "^5.2.11",
+		"vite-aliases": "^0.11.6"
+	},
+	"devDependencies": {
+		"postcss-preset-env": "^9.5.12"
+	}
+}
