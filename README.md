@@ -2,3 +2,4 @@
 
 - vite-aliases
 - vite-plugin-html
+- vite-plugin-mock
