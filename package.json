@@ -14,8 +14,10 @@
 		"vite": "^5.2.11"
 	},
 	"devDependencies": {
+		"mockjs": "^1.1.0",
 		"postcss-preset-env": "^9.5.12",
 		"vite-aliases": "^0.11.6",
-		"vite-plugin-html": "^3.2.2"
+		"vite-plugin-html": "^3.2.2",
+		"vite-plugin-mock": "^3.0.2"
 	}
 }
